@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com JS</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Comparação Numérica</h1>
+        <h2>Valores</h2>
+        <form id="form-num">
+            <input type="number" id="primeiroValor" required placeholder="Primeiro Valor" />
+            <input type="number" id="segundoValor" required placeholder="Segundo Valor" />
+            <p class="error">
+                Este valor não é maior!
+            </p>
+            <button id="btn-enviar" type="submit">Enviar</button>
+        </form>
+        <p class="mensagemSucesso"></p>
+        <p class="mensagemInfortuna"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
